@@ -1,0 +1,29 @@
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+#display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    width: 150px;
+    height: 2rem;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+    outline: 4px solid greenyellow;
+    outline-offset: 10px;
+    
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+button{
+    padding: 5px;
+    border-radius: 5px;
+}
