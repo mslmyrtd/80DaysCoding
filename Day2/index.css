@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color:navajowhite;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+button{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+#display{
+    margin: 1rem;
+    font-size: 2.5rem;
+}
+
+#decrease:hover{
+    cursor: pointer;
+    background-color:red;
+    color: white;
+    border-style: none;
+}
+#increase:hover{
+    cursor: pointer;
+    background-color:blue;
+    color: white;
+    border-style: none;
+}
+#reset:hover{
+    cursor: pointer;
+    background-color:grey;
+    color: white;
+    border-style: none;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+button{
+    background-color:lightgreen;
+}
